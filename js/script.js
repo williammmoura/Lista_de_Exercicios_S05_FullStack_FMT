@@ -1,7 +1,8 @@
 //Exercício 01
-const mensagemOla = () => {
-    return "Olá, Mundo!";
-}
+const mensagemOla = (nome) => {
+    nome = "Ana";
+    return "Olá, " + nome;
+};
 
-console.log(mensagemOla);
-alert(mensagemOla);
+console.log(mensagemOla())
+alert(mensagemOla());
